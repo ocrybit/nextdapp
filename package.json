@@ -64,7 +64,8 @@
     "theme": "bash scripts/switch.sh",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "preinstall": "./.github/scripts/precheck"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.8.3",
